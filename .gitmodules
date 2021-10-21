@@ -1,0 +1,30 @@
+[submodule "scad-utils"]
+	path = scad-utils
+	url = https://github.com/idcrook/scad-utils.git
+[submodule "dotSCAD"]
+	path = dotSCAD
+	url = https://github.com/idcrook/dotSCAD.git
+[submodule "NopSCADlib"]
+	path = NopSCADlib
+	url = https://github.com/idcrook/NopSCADlib.git
+[submodule "BOLTS"]
+	path = BOLTS
+	url = https://github.com/idcrook/BOLTS.git
+[submodule "Chamfers-for-OpenSCAD"]
+	path = Chamfers-for-OpenSCAD
+	url = https://github.com/idcrook/Chamfers-for-OpenSCAD.git
+[submodule "kitwallace__openscad"]
+	path = kitwallace__openscad
+	url = https://github.com/KitWallace/openscad.git
+[submodule "agentscad"]
+	path = agentscad
+	url = https://github.com/idcrook/agentscad.git
+[submodule "list-comprehension-demos"]
+	path = list-comprehension-demos
+	url = https://github.com/idcrook/list-comprehension-demos.git
+[submodule "BOSL2"]
+	path = BOSL2
+	url = https://github.com/idcrook/BOSL2.git
+[submodule "MCAD"]
+	path = MCAD
+	url = https://github.com/idcrook/MCAD.git
