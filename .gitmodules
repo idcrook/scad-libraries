@@ -28,3 +28,9 @@
 [submodule "MCAD"]
 	path = MCAD
 	url = https://github.com/idcrook/MCAD.git
+[submodule "relativity.scad"]
+	path = relativity.scad
+	url = https://github.com/idcrook/relativity.scad.git
+[submodule "nutsnbolts"]
+	path = nutsnbolts
+	url = https://github.com/idcrook/nutsnbolts.git
