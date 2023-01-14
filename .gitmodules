@@ -7,9 +7,6 @@
 [submodule "NopSCADlib"]
 	path = NopSCADlib
 	url = https://github.com/idcrook/NopSCADlib.git
-[submodule "BOLTS"]
-	path = BOLTS
-	url = https://github.com/idcrook/BOLTS.git
 [submodule "Chamfers-for-OpenSCAD"]
 	path = Chamfers-for-OpenSCAD
 	url = https://github.com/idcrook/Chamfers-for-OpenSCAD.git
