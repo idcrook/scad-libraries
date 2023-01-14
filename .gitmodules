@@ -31,3 +31,6 @@
 [submodule "nutsnbolts"]
 	path = nutsnbolts
 	url = https://github.com/idcrook/nutsnbolts.git
+[submodule "bolts"]
+	path = bolts
+	url = https://github.com/idcrook/boltsparts.git

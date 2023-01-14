@@ -27,7 +27,10 @@ use <../libraries/dotSCAD/src/rounded_square.scad>
 
 ```shell
 git submodule add https://github.com/idcrook/MCAD.git
-git submodule add https://github.com/idcrook/BOLTS.git
+##git submodule add https://github.com/idcrook/BOLTS.git
+##git rm BOLTS && ...commit...
+##cd .. && rm -rf  .git/modules/libraries/modules/BOLTS
+git submodule add https://github.com/idcrook/boltsparts.git bolts
 git submodule add https://github.com/idcrook/BOSL2.git
 git submodule add https://github.com/idcrook/Chamfers-for-OpenSCAD.git
 git submodule add https://github.com/idcrook/NopSCADlib.git
@@ -42,7 +45,8 @@ mkdir scad-misc/
 touch scad-misc/README.md
 git add scad-misc/README.md
 ( cd MCAD  && git remote add upstream https://github.com/openscad/MCAD.git )
-( cd BOLTS && git remote add upstream https://github.com/boltsparts/BOLTS.git )
+##( cd BOLTS && git remote add upstream https://github.com/boltsparts/BOLTS.git )
+( cd bolts && git remote add upstream https://github.com/boltsparts/boltsparts.git )
 ( cd BOSL2 && git remote add upstream https://github.com/revarbat/BOSL2.git )
 ( cd Chamfers-for-OpenSCAD && git remote add upstream https://github.com/SebiTimeWaster/Chamfers-for-OpenSCAD.git )
 ( cd NopSCADlib && git remote add upstream https://github.com/nophead/NopSCADlib.git )
@@ -54,7 +58,7 @@ git add scad-misc/README.md
 
 # BOLTS
 
-<https://github.com/boltsparts/BOLTS>
+<https://github.com/boltsparts/boltsparts>
 
 BOLTS is an Open Library for Technical Specifications.
 
