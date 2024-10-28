@@ -34,3 +34,6 @@
 [submodule "bolts"]
 	path = bolts
 	url = https://github.com/idcrook/boltsparts.git
+[submodule "scadqr"]
+	path = scadqr
+	url = https://github.com/idcrook/scadqr.git

@@ -41,6 +41,7 @@ git submodule add https://github.com/idcrook/nutsnbolts.git
 git submodule add https://github.com/idcrook/scad-utils.git
 git submodule add https://github.com/KitWallace/openscad.git kitwallace__openscad
 git submodule add https://github.com/idcrook/list-comprehension-demos.git
+git submodule add https://github.com/idcrook/scadqr.git
 mkdir scad-misc/
 touch scad-misc/README.md
 git add scad-misc/README.md
@@ -53,6 +54,7 @@ git add scad-misc/README.md
 ( cd agentscad && git remote add upstream https://github.com/GillesBouissac/agentscad.git )
 ( cd dotSCAD && git remote add upstream https://github.com/JustinSDK/dotSCAD.git )
 ( cd scad-utils && git remote add upstream https://github.com/openscad/scad-utils.git )
+( cd scadqr && git remote add upstream https://github.com/xypwn/scadqr.git)
 ```
 
 
@@ -144,3 +146,10 @@ The library introduces a new set of modules to replace the default geometric pri
 <https://github.com/JohK/nutsnbolts>
 
 A OpenSCAD library that allows for simple creation of nuts and bolts and respective nut catches and screw holes.
+
+
+# scadqr
+
+<https://github.com/idcrook/scadqr/tree/main/#scadqr>
+
+Effortlessly generate QR codes directly in OpenSCAD! No extra dependencies!
