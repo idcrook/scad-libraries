@@ -37,3 +37,6 @@
 [submodule "scadqr"]
 	path = scadqr
 	url = https://github.com/idcrook/scadqr.git
+[submodule "UB.scad"]
+	path = UB.scad
+	url = https://github.com/idcrook/UB.scad.git

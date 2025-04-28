@@ -42,6 +42,7 @@ git submodule add https://github.com/idcrook/scad-utils.git
 git submodule add https://github.com/KitWallace/openscad.git kitwallace__openscad
 git submodule add https://github.com/idcrook/list-comprehension-demos.git
 git submodule add https://github.com/idcrook/scadqr.git
+git submodule add https://github.com/idcrook/UB.scad.git
 mkdir scad-misc/
 touch scad-misc/README.md
 git add scad-misc/README.md
@@ -55,6 +56,7 @@ git add scad-misc/README.md
 ( cd dotSCAD && git remote add upstream https://github.com/JustinSDK/dotSCAD.git )
 ( cd scad-utils && git remote add upstream https://github.com/openscad/scad-utils.git )
 ( cd scadqr && git remote add upstream https://github.com/xypwn/scadqr.git)
+( cd UB.scad && git remote add upstream https://github.com/UBaer21/UB.scad.git)
 ```
 
 
