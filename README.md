@@ -43,6 +43,8 @@ git submodule add https://github.com/KitWallace/openscad.git kitwallace__opensca
 git submodule add https://github.com/idcrook/list-comprehension-demos.git
 git submodule add https://github.com/idcrook/scadqr.git
 git submodule add https://github.com/idcrook/UB.scad.git
+git submodule add https://github.com/idcrook/catchnhole.git
+git submodule add https://github.com/idcrook/threads-scad.git
 mkdir scad-misc/
 touch scad-misc/README.md
 git add scad-misc/README.md
@@ -161,3 +163,16 @@ Effortlessly generate QR codes directly in OpenSCAD! No extra dependencies!
 <https://github.com/UBaer21/UB.scad>
 
 For 3d Printing workflow
+
+
+# catchnhole
+
+An ergonomic way to create nutcatches, screw holes and countersinks in OpenSCAD.
+
+<https://github.com/mmalecki/catchnhole>
+
+# threads-scad
+
+OpenSCAD threading library
+
+<https://github.com/rcolyer/threads-scad>

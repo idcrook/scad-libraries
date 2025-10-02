@@ -40,3 +40,9 @@
 [submodule "UB.scad"]
 	path = UB.scad
 	url = https://github.com/idcrook/UB.scad.git
+[submodule "catchnhole"]
+	path = catchnhole
+	url = https://github.com/idcrook/catchnhole.git
+[submodule "threads-scad"]
+	path = threads-scad
+	url = https://github.com/idcrook/threads-scad.git
